@@ -1,0 +1,266 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/webpack/buildin/module.js": 0,
+          "node_modules/webpack/buildin/global.js": 1,
+          "node_modules/lodash/lodash.js": 2,
+          "node_modules/html-webpack-plugin/lib/loader.js!src/template/index.html": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/scss/index.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/url-loader/dist/cjs.js??ref--4-0!node_modules/image-webpack-loader/index.js??ref--4-1!src/img/1894897091-5834f2bab5271_articlex.jpg": 0,
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/lib/url/escape.js": 2,
+          "node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/scss/index.scss": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          1
+        ]
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--9-2!node_modules/postcss-loader/lib/index.js??ref--9-3!node_modules/purecss/build/pure-min.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js??ref--9-2!node_modules/postcss-loader/lib/index.js??ref--9-3!node_modules/purecss/build/pure-min.css": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "node_modules/react/index.js": 0,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Lazy.jsx": 1,
+      "node_modules/fbjs/lib/emptyFunction.js": 2,
+      "node_modules/fbjs/lib/invariant.js": 3,
+      "node_modules/fbjs/lib/emptyObject.js": 4,
+      "node_modules/object-assign/index.js": 5,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/lazy2.jsx": 6,
+      "node_modules/prop-types/lib/ReactPropTypesSecret.js": 7,
+      "node_modules/prop-types/factoryWithThrowingShims.js": 8,
+      "node_modules/prop-types/index.js": 9,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Info.jsx": 10,
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/scss/index.scss": 11,
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--9-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--9-2!node_modules/postcss-loader/lib/index.js??ref--9-3!node_modules/purecss/build/pure-min.css": 12,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/app.jsx": 13,
+      "node_modules/fbjs/lib/isNode.js": 14,
+      "node_modules/fbjs/lib/isTextNode.js": 15,
+      "node_modules/fbjs/lib/containsNode.js": 16,
+      "node_modules/fbjs/lib/shallowEqual.js": 17,
+      "node_modules/fbjs/lib/getActiveElement.js": 18,
+      "node_modules/fbjs/lib/ExecutionEnvironment.js": 19,
+      "node_modules/react-dom/cjs/react-dom.production.min.js": 20,
+      "node_modules/react-dom/index.js": 21,
+      "node_modules/react/cjs/react.production.min.js": 22,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/index.jsx": 23,
+      "node_modules/happypack/loader.js?id=jsx!src/components/Lazy.jsx": 1,
+      "node_modules/happypack/loader.js?id=jsx!src/components/lazy2.jsx": 6,
+      "node_modules/happypack/loader.js?id=jsx!src/components/Info.jsx": 10,
+      "node_modules/happypack/loader.js?id=jsx!src/app.jsx": 13,
+      "node_modules/happypack/loader.js?id=jsx!src/index.jsx": 23,
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/index.scss": 6,
+      "node_modules/warning/browser.js": 11,
+      "node_modules/invariant/browser.js": 12,
+      "node_modules/history/PathUtils.js": 13,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Test.jsx": 24,
+      "node_modules/history/createTransitionManager.js": 25,
+      "node_modules/history/LocationUtils.js": 26,
+      "node_modules/value-equal/index.js": 27,
+      "node_modules/resolve-pathname/index.js": 28,
+      "node_modules/history/DOMUtils.js": 29,
+      "node_modules/hoist-non-react-statics/index.js": 30,
+      "node_modules/react-router/node_modules/path-to-regexp/index.js": 31,
+      "node_modules/history/createMemoryHistory.js": 32,
+      "node_modules/history/createHashHistory.js": 33,
+      "node_modules/history/createBrowserHistory.js": 34,
+      "node_modules/react-router-dom/es/index.js 56865116cac633010a0723d0ef161171": 35,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/App.jsx": 36,
+      "node_modules/react-loadable/lib/index.js": 37,
+      "node_modules/react-router/node_modules/isarray/index.js": 38,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/router/router.jsx": 39,
+      "node_modules/redux/es/redux.js": 36,
+      "node_modules/symbol-observable/es/index.js": 40,
+      "node_modules/react-redux/es/index.js 49aef8a5abbe8342bfb678eae0eb33e0": 41,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/redux/action.js": 42,
+      "node_modules/webpack/buildin/global.js": 43,
+      "node_modules/symbol-observable/es/ponyfill.js": 44,
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/global.scss": 45,
+      "node_modules/redux-thunk/lib/index.js": 46,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/redux/reducer.js": 47,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/redux/store.js": 48,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Loading.jsx": 49,
+      "node_modules/webpack/buildin/harmony-module.js": 50,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/utils/Wrap.js": 51,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Counter.jsx": 52,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Home.jsx": 53,
+      "node_modules/lodash-es/_freeGlobal.js": 54
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29,
+      "30": 30,
+      "31": 31,
+      "32": 32,
+      "33": 33,
+      "34": 34,
+      "35": 35,
+      "36": 36,
+      "37": 37,
+      "38": 38,
+      "39": 39,
+      "40": 40,
+      "41": 41,
+      "42": 42,
+      "43": 43,
+      "44": 44,
+      "45": 45,
+      "46": 46,
+      "47": 47,
+      "48": 48,
+      "49": 49,
+      "50": 50,
+      "51": 51,
+      "52": 52,
+      "53": 53,
+      "54": 54
+    }
+  },
+  "chunks": {
+    "byName": {
+      "manifest": 1,
+      "js/public/vender": 2,
+      "js/index": 3
+    },
+    "bySource": {
+      "0 node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/app.jsx ./components/Lazy.jsx": 0,
+      "0 node_modules/happypack/loader.js?id=jsx!src/app.jsx ./components/Lazy.jsx": 4,
+      "0 node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/App.jsx ./Lazy.jsx": 4,
+      "0 node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/router/router.jsx ../components/Test.jsx": 5,
+      "0 node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Home.jsx ./Lazy.jsx": 0
+    },
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/index.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/url-loader/dist/cjs.js??ref--4-0!node_modules/image-webpack-loader/index.js??ref--4-1!src/assets/img/1894897091-5834f2bab5271_articlex.jpg": 0,
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/lib/url/escape.js": 2,
+          "node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/index.scss": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/global.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/lib/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/global.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
+}
