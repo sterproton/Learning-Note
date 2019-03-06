@@ -1,2 +1,1 @@
-# blog
-personal blog
+my learning note
